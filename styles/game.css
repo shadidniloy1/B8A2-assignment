@@ -218,3 +218,31 @@ nav li a{
 .image-container img{
     gap: 5px;
 }
+
+
+
+/* career styles */
+.career{
+    fill: rgba(255, 255, 255, 0.10);
+}
+.career-content{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 30px;
+}
+#career-description{
+    width: 42.5rem;
+    color: #FFF;
+}
+.work-available{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.career{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 240px;
+    background-color: #FF42A5;
+    color: #FFF;
+}
