@@ -359,3 +359,22 @@ div a{
     color: rgba(255, 255, 255, 0.60);
     padding: 0 600px 100px 705px;
 }
+
+/* responsive media query */
+/* mobile devices */
+@media screen and (max-width:576px) {
+    .navigation, 
+    .button-alignment{
+        flex-direction: column;
+    }
+    .button-alignment{
+        gap: 15px;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+    }
+    header{
+        width: 100%;
+    }
+    
+}
