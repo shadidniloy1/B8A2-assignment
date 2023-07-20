@@ -246,3 +246,71 @@ nav li a{
     background-color: #FF42A5;
     color: #FFF;
 }
+
+/* button styles */
+.button-icon{
+    display: flex;
+    align-items: center;
+    color: #0B0223;
+    border: 0;
+    border-radius: 50px;
+    background: #FFF;
+    width: 310px;
+    height: 80px;
+    cursor: pointer;
+    
+}
+.button-icon:hover{
+    background-color: #FF42A5;
+}
+.btn-name{
+    color: #0B0223;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.btn-align{
+    display: flex;
+    padding: 50px 150px 30px 240px;
+}
+.secondary-btn{
+    display: flex;
+    align-items: center;
+    padding: 0 330px 350px 350px;
+}
+
+/* footer styles */
+footer{
+    background-color: #0B0223;
+}
+
+#gamer-end{
+    color: #FFF;
+    text-align: center;
+    padding: 120px 0 50px 0;
+}
+footer > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer li{
+    list-style: none;
+}
+footer li a{
+    text-decoration: none;
+    color: #FFF;
+}
+.last-anchor{
+    width: 800px;
+    padding: 0 550px 53px 550px;
+}
+div a{
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+
+}
+.social-links{
+    padding-left: 730px;
+}
